@@ -20,12 +20,9 @@ public class Main {
         Audi.Car();
         Car BMW = new Car ("BMW","Z8",-2021, "Германии", "черный", 3.0);
         BMW.Car();
-        Car Kia = new Car ("Kia","Sportage 4-го поколения",2018, null, "красный", 2.4);
+        Car Kia = new Car ("Kia","Sportage 4-го поколения",2018, null, null, 2.4);
         Kia.Car();
-        Car Hyundai = new Car ("Hyundai","Avante",2016, "Южной Кореи", null, -1.6);
+        Car Hyundai = new Car ("Hyundai","Avante",2016, "Южной Кореи", "оранжевый", -1.6);
         Hyundai.Car();
-    // задание
-        System.out.println( "Задание");
-
-    }
+        }
 }
