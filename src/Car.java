@@ -37,7 +37,6 @@ public class Car {
         }else {
             this.engineVolume = engineVolume;
         }
-
     }
     void Car () {
         System.out.println(brand + model + ", " + year + " год выпуска, сборка в " + country + ", " + color + " цвета, объем двигателя - "
